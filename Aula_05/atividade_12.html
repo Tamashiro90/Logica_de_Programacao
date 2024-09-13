@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício 12</title>
+    </head>
+    <body>
+        
+        <h2>JavaScript Switch</h2>
+
+        <p id="demo"></p>
+
+        <script>
+            let fruta="kiwi"
+    
+                switch (fruta) {
+
+                    case "maçã":
+                        fruta = "Não vendemos essa fruta aqui";
+                        break;
+                 
+                    case "kiwi":
+                        fruta = "Estamos com escassez de kiwis";
+                        break;
+                    
+                    case "melancia":
+                        fruta = "Aqui está, são 3 reais o quilo";
+                        break;
+                    
+                    default:
+                        fruta = "erro";
+                }
+                document.getElementById("demo").innerHTML = fruta;
+        </script>    
+    </body>
+</html>
