@@ -2,7 +2,7 @@
 divisível por 3, exiba "Fizz", caso contrário, exiba o número. */
 
 for (var i=1; i<=10; i++){
-    if(i%3==0){
+    if(i%3===0){
       console.log("Fizz")  
     } else {
         console.log(i)
